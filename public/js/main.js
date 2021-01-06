@@ -64,12 +64,32 @@ console.log(tQandRepok);
 let reponse = prompt("Quel temps fait-il aujourd'hui ? "); 
 
 //console.log(reponse); 
+/*
 if(typeof reponse == "string" && reponse.length > 0){
     if(reponse == "soleil") console.log("sortez en t-shirt");
     else if(reponse == "vent") console.log('sortez en pull'); 
     else if(reponse == "pluie") console.log('sortez en veste'); 
     else if(reponse == "neige") console.log('restez chez vous'); 
     else console.log(`jai pas compris "${reponse}"?`);
+}
+*/
+
+switch(reponse){
+    case 'soleil':
+        console.log("sortez en t-shirt");
+    break;
+    case 'vent':
+        console.log('sortez en pull');
+    break; 
+    case 'pluie':
+        console.log('sortez en pull');
+    break; 
+    case 'neige':
+        console.log('sortez en pull');
+    break; 
+    default:
+        console.log('erreur.... ');
+    break; 
 }
 
 
