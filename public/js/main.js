@@ -59,4 +59,21 @@ console.log(tQandRepok);
 */
 
 
-//exo 4 
+//partie 2
+
+let reponse = prompt("Quel temps fait-il aujourd'hui ? "); 
+
+//console.log(reponse); 
+if(typeof reponse == "string" && reponse.length > 0){
+    if(reponse == "soleil") console.log("sortez en t-shirt");
+    else if(reponse == "vent") console.log('sortez en pull'); 
+    else if(reponse == "pluie") console.log('sortez en veste'); 
+    else if(reponse == "neige") console.log('restez chez vous'); 
+    else console.log(`jai pas compris "${reponse}"?`);
+}
+
+
+
+
+
+
